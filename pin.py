@@ -1,4 +1,4 @@
-pin = "0456"
+pin = "0456" #What if the PIN is set as just 56?
 guess = "0000"
 while pin != guess:
     guess = str(int(guess) + 1)
